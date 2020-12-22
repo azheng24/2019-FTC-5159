@@ -1959,11 +1959,9 @@ public class Chassis_KLNavX_6109_v6 {
             return false;
         else
             return true;
+
+
     }
-
-
-
-
     public void moveSrvo(LinearOpMode opMode, String msg, double power, int timeout) {
         long lMarkMilliS;
         lMarkMilliS=System.currentTimeMillis() + timeout;
